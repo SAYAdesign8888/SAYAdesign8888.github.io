@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grayscale - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button> -->
+                <a class="navbar-brand page-scroll" href="#page-top"><!-- 
+                    <i class="fa fa-play-circle"></i>   --><span class="light">石垣ITブートキャンプ</span> 
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href=" "></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#intro">ITブートキャンプ</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about_1">こんな人に</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about_2">卒業後の未来</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download_1">環境</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download_2">カリキュラム</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download_3">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#entry"><i class="fa fa-envelope-o"></i>メール</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact"><i class="fa fa-phone"></i>お電話</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+          <div class="title">
+            <h1>お問い合わせフォーム</h1>
+          </div>
+          <form action="./form/postmail.cgi" method="post">
+          <input type="hidden" name="need" value="name email" />
+          <div class="form-horizontal">
+
+            <div class="form-group">
+              <label for="inputお名前3" class="col-sm-2 control-label"><!-- <span>必須</span> -->お名前</label>
+              <div class="col-sm-8">
+                <input type="text" name="name" class="form-control" id="inputお名前3" placeholder="山田太郎">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label"><!-- <span>必須</span> -->Email</label>
+              <div class="col-sm-8">
+                <input type="text" name="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="input都道府県3" class="col-sm-2 control-label">都道府県</label>
+              <div class="col-sm-4">
+                <select name="都道府県" class="form-control">
+                  <option value="">都道府県</option>  
+                  <optgroup label="北海道・東北">  
+                      <option value="北海道">北海道</option>  
+                      <option value="青森県">青森県</option>  
+                      <option value="秋田県">秋田県</option>  
+                      <option value="岩手県">岩手県</option>  
+                      <option value="山形県">山形県</option>  
+                      <option value="宮城県">宮城県</option>  
+                      <option value="福島県">福島県</option>  
+                  </optgroup>  
+                  <optgroup label="甲信越・北陸">  
+                      <option value="山梨県">山梨県</option>  
+                      <option value="長野県">長野県</option>  
+                      <option value="新潟県">新潟県</option>  
+                      <option value="富山県">富山県</option>  
+                      <option value="石川県">石川県</option>  
+                      <option value="福井県">福井県</option>  
+                  </optgroup>  
+                  <optgroup label="関東">  
+                      <option value="茨城県">茨城県</option>  
+                      <option value="栃木県">栃木県</option>  
+                      <option value="群馬県">群馬県</option>  
+                      <option value="埼玉県">埼玉県</option>  
+                      <option value="千葉県">千葉県</option>  
+                      <option value="東京都">東京都</option>  
+                      <option value="神奈川県">神奈川県</option>  
+                  </optgroup>  
+                  <optgroup label="東海">  
+                      <option value="愛知県">愛知県</option>  
+                      <option value="静岡県">静岡県</option>  
+                      <option value="岐阜県">岐阜県</option>  
+                      <option value="三重県">三重県</option>  
+                  </optgroup>  
+                  <optgroup label="関西">  
+                      <option value="大阪府">大阪府</option>  
+                      <option value="兵庫県">兵庫県</option>  
+                      <option value="京都府">京都府</option>  
+                      <option value="滋賀県">滋賀県</option>  
+                      <option value="奈良県">奈良県</option>  
+                      <option value="和歌山県">和歌山県</option>  
+                  </optgroup>  
+                  <optgroup label="中国">  
+                      <option value="岡山県">岡山県</option>  
+                      <option value="広島県">広島県</option>  
+                      <option value="鳥取県">鳥取県</option>  
+                      <option value="島根県">島根県</option>  
+                      <option value="山口県">山口県</option>  
+                  </optgroup>  
+                  <optgroup label="四国">  
+                      <option value="徳島県">徳島県</option>  
+                      <option value="香川県">香川県</option>  
+                      <option value="愛媛県">愛媛県</option>  
+                      <option value="高知県">高知県</option>  
+                  </optgroup>  
+                  <optgroup label="九州・沖縄">  
+                      <option value="福岡県">福岡県</option>  
+                      <option value="佐賀県">佐賀県</option>  
+                      <option value="長崎県">長崎県</option>  
+                      <option value="熊本県">熊本県</option>  
+                      <option value="大分県">大分県</option>  
+                      <option value="宮崎県">宮崎県</option>  
+                      <option value="鹿児島県">鹿児島県</option>  
+                      <option value="沖縄県">沖縄県</option>  
+                  </optgroup>  
+                  </select>  
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="input住所3" class="col-sm-2 control-label">住所</label>
+              <div class="col-sm-8">
+                <input type="text" name="住所" class="form-control" id="input住所3" placeholder="住所">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label class="radio-inline">
+                    <input type="radio" name="性別" id="inlineRadio1" value="男性"> 男性
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="性別" id="inlineRadio2" value="女性"> 女性
+                  </label>
+                </div>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label">メッセージ</label>
+              <div class="col-sm-8">
+                <input type="textarea" name="メッセージ" class="form-control" id="inputメッセージ3"rows="3">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <!-- <label class="radio-inline">
+                    <button type="submit" class="btn btn-default">返信する</button>
+                    <button type="submit" class="btn btn-default">リセット</button>
+                </label> -->
+                <input type="submit" class="btn btn-default" value="送信する" />
+                <input type="reset" class="btn btn-default" value="リセット" />
+              </div>
+            </div>
+          </div>
+          </form>
+        </div>
+        </div>
+    </header>
+    
+    
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Start Bootstrap</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section> -->
+    
+    <!-- Map Section --><!-- 
+    <div id="map"></div> -->
+
+    <!-- Footer -->
+    <!-- <footer>
+        <ul class="banner">
+            <li><a href="#"><img src="./sozai/webcon.png" alt="webcon"></a></li>
+            <li><a href="#"><img src="./sozai/webcon2.png" alt="webcon2"></a></li>
+            <li><a href="#"><img src="./sozai/blog.jpg" art="blog"></a></li>
+            <li><a href="#"><img src="./sozai/web_p.png" alt="web_p"></a></li>
+            <li><a href="#"><img src="./sozai/seo2.png" art="seo2"></a></li>
+        </ul>
+        <div class="col-md-6 col-md-offset-2">
+            <div class="company">
+                <ul class="company">
+                    <li><p>運営会社</p></li>
+                    <li>会社名 株式会社Cajon</li>
+                    <li>所在地 〒160-0023 東京都新宿区西新宿5-1-18 西新宿パレスビル 3階</li>
+                    <li>電話番号    03-4330-9320</li>
+                    <li>事業内容    webマーケティング、ソーシャルメディアサービス</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="text-center">
+            <div class="container text-center">
+                <p>Copyright &copy; Your Website 2015</p>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4&appId=179074992194400";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+
+</html>
